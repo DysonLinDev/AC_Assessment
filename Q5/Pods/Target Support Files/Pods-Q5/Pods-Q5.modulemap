@@ -1,0 +1,6 @@
+framework module Pods_Q5 {
+  umbrella header "Pods-Q5-umbrella.h"
+
+  export *
+  module * { export * }
+}
