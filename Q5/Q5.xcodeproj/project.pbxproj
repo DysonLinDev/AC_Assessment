@@ -13,7 +13,7 @@
 		9FAB0C501CEBFDA6002BCBCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FAB0C4E1CEBFDA6002BCBCD /* LaunchScreen.storyboard */; };
 		9FAB0C591CEBFDCC002BCBCD /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAB0C571CEBFDCC002BCBCD /* MyTableViewCell.swift */; };
 		9FAB0C5A1CEBFDCC002BCBCD /* MyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FAB0C581CEBFDCC002BCBCD /* MyTableViewCell.xib */; };
-		9FAB0C5C1CEBFDE1002BCBCD /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAB0C5B1CEBFDE1002BCBCD /* MyTableViewController.swift */; };
+		9FAB0C5E1CEBFED3002BCBCD /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAB0C5D1CEBFED3002BCBCD /* MyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		9FAB0C511CEBFDA6002BCBCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FAB0C571CEBFDCC002BCBCD /* MyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
 		9FAB0C581CEBFDCC002BCBCD /* MyTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyTableViewCell.xib; sourceTree = "<group>"; };
-		9FAB0C5B1CEBFDE1002BCBCD /* MyTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
+		9FAB0C5D1CEBFED3002BCBCD /* MyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +60,7 @@
 			children = (
 				9FAB0C451CEBFDA6002BCBCD /* AppDelegate.swift */,
 				9FAB0C491CEBFDA6002BCBCD /* Main.storyboard */,
-				9FAB0C5B1CEBFDE1002BCBCD /* MyTableViewController.swift */,
+				9FAB0C5D1CEBFED3002BCBCD /* MyViewController.swift */,
 				9FAB0C571CEBFDCC002BCBCD /* MyTableViewCell.swift */,
 				9FAB0C581CEBFDCC002BCBCD /* MyTableViewCell.xib */,
 				9FAB0C4C1CEBFDA6002BCBCD /* Assets.xcassets */,
@@ -143,7 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FAB0C461CEBFDA6002BCBCD /* AppDelegate.swift in Sources */,
-				9FAB0C5C1CEBFDE1002BCBCD /* MyTableViewController.swift in Sources */,
+				9FAB0C5E1CEBFED3002BCBCD /* MyViewController.swift in Sources */,
 				9FAB0C591CEBFDCC002BCBCD /* MyTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
