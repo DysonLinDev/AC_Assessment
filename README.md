@@ -13,7 +13,8 @@ Q2: 依照投影片畫面呈現
                  綠色的constrain: 右邊與下面各設置15 與橘色水平設置5
                  互相等寬同高，橘色與superview同高：1:10的比例設定
                  
-Q3: 開啟時：依序觸發
+Q3: viewController Life Cycle:
+    開啟時：依序觸發
             application(_:didFinishLaunchingWithOptions:)
             viewDidLoad()
             viewWillAppear
