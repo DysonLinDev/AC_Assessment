@@ -14,6 +14,8 @@
 		9FAB0C591CEBFDCC002BCBCD /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAB0C571CEBFDCC002BCBCD /* MyTableViewCell.swift */; };
 		9FAB0C5A1CEBFDCC002BCBCD /* MyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FAB0C581CEBFDCC002BCBCD /* MyTableViewCell.xib */; };
 		9FAB0C5E1CEBFED3002BCBCD /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAB0C5D1CEBFED3002BCBCD /* MyViewController.swift */; };
+		9FAB0C601CEC026A002BCBCD /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAB0C5F1CEC026A002BCBCD /* CameraViewController.swift */; };
+		9FAB0C621CEC03E2002BCBCD /* ShowPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAB0C611CEC03E2002BCBCD /* ShowPhotoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		9FAB0C571CEBFDCC002BCBCD /* MyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
 		9FAB0C581CEBFDCC002BCBCD /* MyTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyTableViewCell.xib; sourceTree = "<group>"; };
 		9FAB0C5D1CEBFED3002BCBCD /* MyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+		9FAB0C5F1CEC026A002BCBCD /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		9FAB0C611CEC03E2002BCBCD /* ShowPhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowPhotoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 			children = (
 				9FAB0C451CEBFDA6002BCBCD /* AppDelegate.swift */,
 				9FAB0C491CEBFDA6002BCBCD /* Main.storyboard */,
+				9FAB0C5F1CEC026A002BCBCD /* CameraViewController.swift */,
+				9FAB0C611CEC03E2002BCBCD /* ShowPhotoViewController.swift */,
 				9FAB0C5D1CEBFED3002BCBCD /* MyViewController.swift */,
 				9FAB0C571CEBFDCC002BCBCD /* MyTableViewCell.swift */,
 				9FAB0C581CEBFDCC002BCBCD /* MyTableViewCell.xib */,
@@ -143,6 +149,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FAB0C461CEBFDA6002BCBCD /* AppDelegate.swift in Sources */,
+				9FAB0C601CEC026A002BCBCD /* CameraViewController.swift in Sources */,
+				9FAB0C621CEC03E2002BCBCD /* ShowPhotoViewController.swift in Sources */,
 				9FAB0C5E1CEBFED3002BCBCD /* MyViewController.swift in Sources */,
 				9FAB0C591CEBFDCC002BCBCD /* MyTableViewCell.swift in Sources */,
 			);

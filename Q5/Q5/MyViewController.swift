@@ -25,6 +25,8 @@ class MyViewController: UIViewController, UITableViewDelegate , UITableViewDataS
     }
     
     @IBAction func takePhotoAction(sender: AnyObject) {
+        let destinationController = UIStoryboard().instantiateViewControllerWithIdentifier("CameraViewController")
+        self.presentViewController(destinationController, animated: true, completion: nil)
     }
 
     

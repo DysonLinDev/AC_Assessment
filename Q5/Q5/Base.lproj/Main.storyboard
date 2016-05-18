@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--My View Controller-->
@@ -22,6 +23,7 @@
                                 <state key="normal" image="ic_add_circle_outline"/>
                                 <connections>
                                     <action selector="takePhotoAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LJu-KG-zE4"/>
+                                    <segue destination="I1I-Am-575" kind="show" id="EsF-sF-4xr"/>
                                 </connections>
                             </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="yaF-g1-2oi">
@@ -51,6 +53,121 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+        </scene>
+        <!--Show Photo View Controller-->
+        <scene sceneID="Sl3-zJ-B1x">
+            <objects>
+                <viewController id="KuX-Kl-wLj" customClass="ShowPhotoViewController" customModule="Q5" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Q6g-jc-f9A"/>
+                        <viewControllerLayoutGuide type="bottom" id="KoA-nc-TWB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Coj-eQ-bRz">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gr4-ud-ntQ">
+                                <rect key="frame" x="20" y="70" width="560" height="450"/>
+                            </scrollView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3mO-mB-rlz">
+                                <rect key="frame" x="20" y="20" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="backAction:" destination="KuX-Kl-wLj" eventType="touchUpInside" id="l2m-Ck-EwS"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QDX-u5-CcD">
+                                <rect key="frame" x="90" y="550" width="420" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="QDX-u5-CcD" firstAttribute="top" secondItem="Gr4-ud-ntQ" secondAttribute="bottom" constant="30" id="538-aB-7J9"/>
+                            <constraint firstItem="3mO-mB-rlz" firstAttribute="leading" secondItem="Coj-eQ-bRz" secondAttribute="leading" constant="20" id="5hm-BV-ifc"/>
+                            <constraint firstItem="QDX-u5-CcD" firstAttribute="centerX" secondItem="Coj-eQ-bRz" secondAttribute="centerX" id="BV2-o5-Yrs"/>
+                            <constraint firstItem="KoA-nc-TWB" firstAttribute="top" secondItem="QDX-u5-CcD" secondAttribute="bottom" constant="20" id="WTl-DP-cfW"/>
+                            <constraint firstItem="Gr4-ud-ntQ" firstAttribute="top" secondItem="3mO-mB-rlz" secondAttribute="bottom" constant="20" id="adP-NG-Y6Q"/>
+                            <constraint firstItem="3mO-mB-rlz" firstAttribute="top" secondItem="Q6g-jc-f9A" secondAttribute="bottom" id="eGH-oP-B9u"/>
+                            <constraint firstItem="QDX-u5-CcD" firstAttribute="width" secondItem="Coj-eQ-bRz" secondAttribute="width" multiplier="7:10" id="qw0-2d-KvO"/>
+                            <constraint firstItem="Gr4-ud-ntQ" firstAttribute="leading" secondItem="Coj-eQ-bRz" secondAttribute="leading" constant="20" id="uuG-16-B7s"/>
+                            <constraint firstAttribute="trailing" secondItem="Gr4-ud-ntQ" secondAttribute="trailing" constant="20" id="vIG-bQ-BNq"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="myScrollView" destination="Gr4-ud-ntQ" id="tir-R6-5ZN"/>
+                        <outlet property="photoDescribeText" destination="QDX-u5-CcD" id="f3g-QV-8sp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wn4-cX-RDW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="244" y="994"/>
+        </scene>
+        <!--Camera View Controller-->
+        <scene sceneID="gm9-O5-rhE">
+            <objects>
+                <viewController id="I1I-Am-575" customClass="CameraViewController" customModule="Q5" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="NHX-EG-cnW"/>
+                        <viewControllerLayoutGuide type="bottom" id="I2N-tH-slH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="AKj-RQ-1vH">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ehg-r4-qRJ">
+                                <rect key="frame" x="20" y="20" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="backAction:" destination="I1I-Am-575" eventType="touchUpInside" id="h9V-XG-TBn"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="RQj-4d-DLN">
+                                <rect key="frame" x="250" y="250" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="NQ1-3g-jOD"/>
+                                    <constraint firstAttribute="height" constant="100" id="QVR-Iv-Mmy"/>
+                                </constraints>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kfB-3k-Px0">
+                                <rect key="frame" x="150" y="490" width="300" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WH5-bf-s1Z">
+                                <rect key="frame" x="277" y="550" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="I2N-tH-slH" firstAttribute="top" secondItem="WH5-bf-s1Z" secondAttribute="bottom" constant="20" id="2lR-hg-UOo"/>
+                            <constraint firstItem="RQj-4d-DLN" firstAttribute="centerX" secondItem="AKj-RQ-1vH" secondAttribute="centerX" id="4tK-wa-MWI"/>
+                            <constraint firstItem="kfB-3k-Px0" firstAttribute="width" secondItem="AKj-RQ-1vH" secondAttribute="width" multiplier="1:2" id="5vH-sP-Nfg"/>
+                            <constraint firstItem="ehg-r4-qRJ" firstAttribute="leading" secondItem="AKj-RQ-1vH" secondAttribute="leading" constant="20" id="G6f-oD-nxz"/>
+                            <constraint firstItem="RQj-4d-DLN" firstAttribute="top" secondItem="ehg-r4-qRJ" secondAttribute="bottom" constant="135" id="NgX-Ww-xVK"/>
+                            <constraint firstItem="kfB-3k-Px0" firstAttribute="centerX" secondItem="AKj-RQ-1vH" secondAttribute="centerX" id="bya-rR-exf"/>
+                            <constraint firstItem="RQj-4d-DLN" firstAttribute="centerY" secondItem="AKj-RQ-1vH" secondAttribute="centerY" id="gAC-Vt-rLa"/>
+                            <constraint firstItem="WH5-bf-s1Z" firstAttribute="top" secondItem="kfB-3k-Px0" secondAttribute="bottom" constant="30" id="pR8-gt-vT2"/>
+                            <constraint firstItem="WH5-bf-s1Z" firstAttribute="centerX" secondItem="AKj-RQ-1vH" secondAttribute="centerX" id="yCB-ai-58j"/>
+                            <constraint firstItem="ehg-r4-qRJ" firstAttribute="top" secondItem="NHX-EG-cnW" secondAttribute="bottom" id="yoC-kP-EJK"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="NgX-Ww-xVK"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="photoDescribeText" destination="kfB-3k-Px0" id="Pil-QS-CdM"/>
+                        <outlet property="previewImageView" destination="RQj-4d-DLN" id="2sL-FX-mID"/>
+                        <outlet property="takePhotoAction" destination="WH5-bf-s1Z" id="Wp9-PC-SHD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bGk-6Y-SPu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="887" y="349"/>
         </scene>
     </scenes>
     <resources>
