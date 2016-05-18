@@ -7,11 +7,15 @@
 //
 
 import UIKit
+import CameraManager
 
 class CameraViewController: UIViewController {
 
     @IBOutlet weak var previewImageView: UIImageView!
     @IBOutlet weak var photoDescribeText: UITextField!
+    
+    let cameraManager = CameraManager()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -23,10 +27,29 @@ class CameraViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    override func viewWillAppear(animated: Bool) {
+        self.initCamera()
+    }
+    
+    func initCamera() {
+        self.cameraManager.addPreviewLayerToView(self.previewImageView)
+        self.cameraManager.cameraDevice = .Back
+        self.cameraManager.cameraOutputMode = .StillImage
+        self.cameraManager.cameraOutputQuality = .High
+        self.cameraManager.writeFilesToPhoneLibrary = false
+    }
+    
     @IBAction func backAction(sender: AnyObject) {
     }
 
-    @IBOutlet weak var takePhotoAction: UIButton!
+    
+    @IBAction func takephotoAction(sender: AnyObject) {
+        self.cameraManager.capturePictureWithCompletition({ (image, error) in
+            if let imageToSave = image {
+                
+            }
+        })
+    }
     /*
     // MARK: - Navigation
 

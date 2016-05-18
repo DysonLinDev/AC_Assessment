@@ -1,10 +1,13 @@
 PODS:
+  - Backendless (3.0.22)
   - CameraManager (2.2.3)
 
 DEPENDENCIES:
+  - Backendless
   - CameraManager
 
 SPEC CHECKSUMS:
+  Backendless: 07e04457051b2f7cdce239d99d3d97a7e66723c6
   CameraManager: aca6ae93237ca5f10d0f234d4cadda28caee22ca
 
 COCOAPODS: 0.39.0

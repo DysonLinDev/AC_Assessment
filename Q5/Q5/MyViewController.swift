@@ -14,8 +14,8 @@ class MyViewController: UIViewController, UITableViewDelegate , UITableViewDataS
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.myTableView.delegate = self
-        self.myTableView.dataSource = self
+//        self.myTableView.delegate = self
+//        self.myTableView.dataSource = self
         // Do any additional setup after loading the view.
     }
 
@@ -25,7 +25,7 @@ class MyViewController: UIViewController, UITableViewDelegate , UITableViewDataS
     }
     
     @IBAction func takePhotoAction(sender: AnyObject) {
-        let destinationController = UIStoryboard().instantiateViewControllerWithIdentifier("CameraViewController")
+        let destinationController = UIStoryboard(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("CameraViewController")
         self.presentViewController(destinationController, animated: true, completion: nil)
     }
 

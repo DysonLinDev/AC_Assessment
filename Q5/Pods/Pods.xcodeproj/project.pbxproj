@@ -10,6 +10,21 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
+		<key>02A15641B93FF5B34B958743F51B70A1</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BETableView.h</string>
+			<key>path</key>
+			<string>SDK/ios/backendless/include/BETableView.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>09FE02C1AE7195B522952B13440B0631</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -23,18 +38,27 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>0A95BA0BD495FC23894FD4674B29E93D</key>
+		<key>0AEF5E233CD4083CCE6CD905F20D5BB6</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>children</key>
+			<array>
+				<string>4447AD5B136AA129F1723F7ACC7C6C9E</string>
+				<string>F9AAC45B43AEFB7512F4E54C697D7427</string>
+				<string>F096189232AD0C0AC21856F44D2839BB</string>
+				<string>22A90907FE4E85861EF17629AC5BDC3D</string>
+				<string>E85BFF1AB26E43F075DC9566C77003CD</string>
+				<string>28D7AA103521FD61DDF3241883645B2D</string>
+			</array>
 			<key>isa</key>
-			<string>PBXFileReference</string>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
 			<key>path</key>
-			<string>CameraManager.modulemap</string>
+			<string>../Target Support Files/CameraManager</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>169E12203DEE41EF4952D7CE69A9CF18</key>
+		<key>148BA4E9F9EA874CF28D72D28FE30505</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -42,8 +66,10 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BESubscription.h</string>
 			<key>path</key>
-			<string>CameraManager-umbrella.h</string>
+			<string>SDK/ios/backendless/include/BESubscription.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -60,6 +86,21 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
+		<key>183574EA4458B2E292AD0CB058EABC8A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>AtomicCountersFactory.h</string>
+			<key>path</key>
+			<string>SDK/ios/backendless/include/AtomicCountersFactory.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>1907CC6703199DA44733FE09608ECA67</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -70,6 +111,36 @@
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
 			<string>Pods-Q5-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>19A3BB4C2DA9CAFC59808B3981828EBD</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BackendlessCollection.h</string>
+			<key>path</key>
+			<string>SDK/ios/backendless/include/BackendlessCollection.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1F141F905903D4263E0DFAC836C0ABD2</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BinaryCodec.h</string>
+			<key>path</key>
+			<string>SDK/ios/CommLibiOS/include/BinaryCodec.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -94,6 +165,107 @@
 			<string>PBXFileReference</string>
 			<key>path</key>
 			<string>Pods-Q5.modulemap</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>22A90907FE4E85861EF17629AC5BDC3D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>CameraManager-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>235F0BD5BF8873B7B55FE422E48AC3A9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BackendlessCachePolicy.h</string>
+			<key>path</key>
+			<string>SDK/ios/backendless/include/BackendlessCachePolicy.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>25CCA49543228AC6B8AEB03817E9B1B0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>FlashorbBinaryWriter.h</string>
+			<key>path</key>
+			<string>SDK/ios/CommLibiOS/include/FlashorbBinaryWriter.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>27CAE40A8572BF089E5CA079C5B9E1D3</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SubscriptionOptions.h</string>
+			<key>path</key>
+			<string>SDK/ios/backendless/include/SubscriptionOptions.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>27CC2E2EAD5E9477FA5BF499719AE508</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>FileService.h</string>
+			<key>path</key>
+			<string>SDK/ios/backendless/include/FileService.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>28D7AA103521FD61DDF3241883645B2D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>298C2BA338672DEA9096CB3301903748</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>DeviceRegistration.h</string>
+			<key>path</key>
+			<string>SDK/ios/backendless/include/DeviceRegistration.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -125,16 +297,78 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>397652CC0F8DAA1AFEFB03DE75717968</key>
+		<key>33BE711177C7B6352E960A0F5930B28F</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>D7471BC4478E4FB69B2CA98272BC3C22</string>
-			</array>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXGroup</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>Pods</string>
+			<string>HashMap.h</string>
+			<key>path</key>
+			<string>SDK/ios/backendless/include/HashMap.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>348F2991A4EE816BC4844A410B903EC5</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>ICallback.h</string>
+			<key>path</key>
+			<string>SDK/ios/backendless/include/ICallback.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>356E4992523D1600C310D2D6DDDAFF27</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>Logger.h</string>
+			<key>path</key>
+			<string>SDK/ios/backendless/include/Logger.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>386EA6E4500488FC19811901DDF5A01E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BECollectionView.h</string>
+			<key>path</key>
+			<string>SDK/ios/backendless/include/BECollectionView.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>39FAB631ECB230BAFAA7DC5A3B3F5487</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BackendlessGeoQuery.h</string>
+			<key>path</key>
+			<string>SDK/ios/backendless/include/BackendlessGeoQuery.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -162,39 +396,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>3A8D96DBCCF3DDE6F20F3ED780F646BC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>CameraManager.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3D5629C1E4543F0F4449A09C9E9E4018</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>0A95BA0BD495FC23894FD4674B29E93D</string>
-				<string>3A8D96DBCCF3DDE6F20F3ED780F646BC</string>
-				<string>5E081A08D762E27A86C6E5F7BB353D93</string>
-				<string>800EEF837C829DDB672D18EA075CB9BB</string>
-				<string>169E12203DEE41EF4952D7CE69A9CF18</string>
-				<string>58F1342AFF648D9767F4E1BA829754F1</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/CameraManager</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>3E4E89230EF59BC255123B67864ACF77</key>
 		<dict>
 			<key>isa</key>
@@ -207,6 +408,107 @@
 			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework</string>
 			<key>sourceTree</key>
 			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>3F4F64EA7E4A086F07CBAF72D671F172</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>GeoPoint.h</string>
+			<key>path</key>
+			<string>SDK/ios/backendless/include/GeoPoint.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>40717210AD461BC3E104632EA213C294</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>ObjectProperty.h</string>
+			<key>path</key>
+			<string>SDK/ios/backendless/include/ObjectProperty.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4350698E5B500468CB69E1C12596059B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BackendlessUser.h</string>
+			<key>path</key>
+			<string>SDK/ios/backendless/include/BackendlessUser.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>43FB2ED92B9AD7B2AED3E16B598B402A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>DeliveryOptions.h</string>
+			<key>path</key>
+			<string>SDK/ios/backendless/include/DeliveryOptions.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4447AD5B136AA129F1723F7ACC7C6C9E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>CameraManager.modulemap</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4658D312C2A28E77F9B91AA633933627</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>UserProperty.h</string>
+			<key>path</key>
+			<string>SDK/ios/backendless/include/UserProperty.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>465EB125FF1450B0776BF21B30D6BF9B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>DataStoreFactory.h</string>
+			<key>path</key>
+			<string>SDK/ios/backendless/include/DataStoreFactory.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>49A39C6DBF0F1B31650824F24BF4523F</key>
 		<dict>
@@ -248,12 +550,102 @@
 			<key>productType</key>
 			<string>com.apple.product-type.framework</string>
 		</dict>
+		<key>50736E0AC284235B16E648E3BC8DC31E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BackendlessBeacon.h</string>
+			<key>path</key>
+			<string>SDK/ios/backendless/include/BackendlessBeacon.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5077019765D9DC37825B3CFF507F6FBB</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>FlashorbBinaryReader.h</string>
+			<key>path</key>
+			<string>SDK/ios/CommLibiOS/include/FlashorbBinaryReader.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>529D48BF4BEE805FB3863A1C1CD34CD5</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>ProtectedBackendlessGeoQuery.h</string>
+			<key>path</key>
+			<string>SDK/ios/backendless/include/ProtectedBackendlessGeoQuery.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>53590833B814D1A83D5ECE0F99491E3D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IPresenceListener.h</string>
+			<key>path</key>
+			<string>SDK/ios/backendless/include/IPresenceListener.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>55DFCD253F3C0D0EB27EBB0FA9AFC4F6</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>RTMPClient.h</string>
+			<key>path</key>
+			<string>SDK/ios/CommLibiOS/include/RTMPClient.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>5697EAF95E1633C030C5FB643C72147B</key>
 		<dict>
 			<key>fileRef</key>
 			<string>3E4E89230EF59BC255123B67864ACF77</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+		</dict>
+		<key>573564E5611D7E1E79B18CD8C6621623</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CustomService.h</string>
+			<key>path</key>
+			<string>SDK/ios/backendless/include/CustomService.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>58B43F087183B4C44700CF23FE87D5BC</key>
 		<dict>
@@ -268,16 +660,48 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>58F1342AFF648D9767F4E1BA829754F1</key>
+		<key>5A1E5FA3ED588264DAC80BDC758B39B3</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>Presence.h</string>
 			<key>path</key>
-			<string>Info.plist</string>
+			<string>SDK/ios/backendless/include/Presence.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5AA39A2DDDEB3DD1D047440F8862B950</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>Backendless-Bridging-Header.h</string>
+			<key>path</key>
+			<string>SDK/ios/backendless/include/Backendless-Bridging-Header.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5BD8E1C946111860A24DECBEDD157C75</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CacheService.h</string>
+			<key>path</key>
+			<string>SDK/ios/backendless/include/CacheService.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -343,19 +767,6 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>5E081A08D762E27A86C6E5F7BB353D93</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>CameraManager-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>6182035574C1B928162AAE0A35E5ED8E</key>
 		<dict>
 			<key>buildConfigurationList</key>
@@ -383,6 +794,80 @@
 			<key>productType</key>
 			<string>com.apple.product-type.framework</string>
 		</dict>
+		<key>618746E9A2FB59B94C7E64F6733B70AA</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IClientSharedObjectDelegate.h</string>
+			<key>path</key>
+			<string>SDK/ios/CommLibiOS/include/IClientSharedObjectDelegate.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>643D8E6B252CB3961E763E820D22F62D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BinaryStream.h</string>
+			<key>path</key>
+			<string>SDK/ios/CommLibiOS/include/BinaryStream.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>69553E4E0D04A9CA357955EC2E6A9EA7</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>Responder.h</string>
+			<key>path</key>
+			<string>SDK/ios/CommLibiOS/include/Responder.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6C484180512E0D32DDC58DF21D62755A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>PublishOptions.h</string>
+			<key>path</key>
+			<string>SDK/ios/backendless/include/PublishOptions.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6E7BAFF8021CEF72FBAD8348A5813E9F</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>EE1D397EF054E2BC621DA18C80307FA6</string>
+				<string>9F4C76DC780A7FC9EC6A25DB4E01CCB9</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>6EEEA1CF87B227684A830E6F7E65CEB3</key>
 		<dict>
 			<key>explicitFileType</key>
@@ -408,6 +893,51 @@
 			<string>text</string>
 			<key>path</key>
 			<string>Pods-Q5-acknowledgements.markdown</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>71C73408A5BB2B5A4784DF9E3D87B068</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>GeoCategory.h</string>
+			<key>path</key>
+			<string>SDK/ios/backendless/include/GeoCategory.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>724CA2B6A6316B1D490BE95CA96B8EF6</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>Logging.h</string>
+			<key>path</key>
+			<string>SDK/ios/backendless/include/Logging.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>74FCDEBEB27A69E7B5F5C202F091B408</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IDataStore.h</string>
+			<key>path</key>
+			<string>SDK/ios/backendless/include/IDataStore.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -475,13 +1005,43 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
+		<key>784F120FCE60917CAEB7FFD74B0FF0EF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>Backendless-With-Media-Bridging-Header.h</string>
+			<key>path</key>
+			<string>SDK/ios/backendless/include/Backendless-With-Media-Bridging-Header.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7C83F7166F2BB806A2828C27767B5F81</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IRTMProtocol.h</string>
+			<key>path</key>
+			<string>SDK/ios/CommLibiOS/include/IRTMProtocol.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>7DB346D0F39D3F0E887471402A8071AB</key>
 		<dict>
 			<key>children</key>
 			<array>
 				<string>BA6428E9F66FD5A23C0A2E06ED26CD2F</string>
 				<string>BC3CA7F9E30CC8F7E2DD044DD34432FC</string>
-				<string>397652CC0F8DAA1AFEFB03DE75717968</string>
+				<string>6E7BAFF8021CEF72FBAD8348A5813E9F</string>
 				<string>98065505B964D9097082191279A5D3D0</string>
 				<string>8AFF77F1B31E08E92624B48A6CE36B3B</string>
 			</array>
@@ -490,7 +1050,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>800EEF837C829DDB672D18EA075CB9BB</key>
+		<key>7DD8C77317D62FD932BCEF5821E31FF8</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -498,8 +1058,25 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>AbstractQuery.h</string>
 			<key>path</key>
-			<string>CameraManager-prefix.pch</string>
+			<string>SDK/ios/backendless/include/AbstractQuery.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>80CB7E2C6615ED3FDEC5DA83BF288309</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>LocationTracker.h</string>
+			<key>path</key>
+			<string>SDK/ios/backendless/include/LocationTracker.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -530,6 +1107,21 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>8645004F18234D2E1B36C4A44A508BD2</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>AMFSerializer.h</string>
+			<key>path</key>
+			<string>SDK/ios/CommLibiOS/include/AMFSerializer.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>8AFF77F1B31E08E92624B48A6CE36B3B</key>
 		<dict>
 			<key>children</key>
@@ -540,6 +1132,21 @@
 			<string>PBXGroup</string>
 			<key>name</key>
 			<string>Targets Support Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8BE13C7BDFCF3BAF1E62507FDDFBB79F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IAttributeStore.h</string>
+			<key>path</key>
+			<string>SDK/ios/CommLibiOS/include/IAttributeStore.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -574,6 +1181,21 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
+		<key>94D12147C85EA91677BE91A17E7C4DC2</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BackendlessFile.h</string>
+			<key>path</key>
+			<string>SDK/ios/backendless/include/BackendlessFile.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>9642486B80581C5D8B6F6D16911D852B</key>
 		<dict>
 			<key>buildConfigurations</key>
@@ -602,6 +1224,21 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>992886529FB69C500522F158D141D287</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BackendlessSimpleQuery.h</string>
+			<key>path</key>
+			<string>SDK/ios/backendless/include/BackendlessSimpleQuery.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>9E1B7DE51750A992F13B0D50FF666793</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -615,12 +1252,73 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>9E847F72CDDB0C817C913C614BB47F1F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>ISharedObjectListener.h</string>
+			<key>path</key>
+			<string>SDK/ios/CommLibiOS/include/ISharedObjectListener.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9F4C76DC780A7FC9EC6A25DB4E01CCB9</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>A0C62E6CD80983447E7E1DED9C2975E5</string>
+				<string>0AEF5E233CD4083CCE6CD905F20D5BB6</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>CameraManager</string>
+			<key>path</key>
+			<string>CameraManager</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>9FE50791E3485B92607FD1FC1C5DB9FF</key>
 		<dict>
 			<key>fileRef</key>
 			<string>3E4E89230EF59BC255123B67864ACF77</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+		</dict>
+		<key>A0C62E6CD80983447E7E1DED9C2975E5</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>CameraManager.swift</string>
+			<key>path</key>
+			<string>camera/CameraManager.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A2A55EFBFDD1EB17495C3E9B094D8B17</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BEAnnotation.h</string>
+			<key>path</key>
+			<string>SDK/ios/backendless/include/BEAnnotation.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>A36B98BBE4B5A3730A4FA54ECA42B447</key>
 		<dict>
@@ -708,6 +1406,111 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
+		<key>A75112ACE890849F68E26E76DDD03864</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>Types.h</string>
+			<key>path</key>
+			<string>SDK/ios/CommLibiOS/include/Types.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A8DF1E37F0FF0E63DF6A2ED0665545EB</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IPendingServiceCallback.h</string>
+			<key>path</key>
+			<string>SDK/ios/CommLibiOS/include/IPendingServiceCallback.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A8F55E634895CBB6AA882D56A3804EE0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IClientSharedObject.h</string>
+			<key>path</key>
+			<string>SDK/ios/CommLibiOS/include/IClientSharedObject.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>AA460B5F9712B067C657E4C38C4DA572</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>GeoService.h</string>
+			<key>path</key>
+			<string>SDK/ios/backendless/include/GeoService.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>AE10E5D28373D7012FD3D8B11BAD3B55</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BackendlessEntity.h</string>
+			<key>path</key>
+			<string>SDK/ios/backendless/include/BackendlessEntity.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B3812DBA68F2814A87A558C0E5F41D6A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>ICacheService.h</string>
+			<key>path</key>
+			<string>SDK/ios/backendless/include/ICacheService.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B7C900D8B2BC64B42ACBD5D633348AB8</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>FilePermission.h</string>
+			<key>path</key>
+			<string>SDK/ios/backendless/include/FilePermission.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>BA6428E9F66FD5A23C0A2E06ED26CD2F</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -725,6 +1528,21 @@
 			<key>xcLanguageSpecificationIdentifier</key>
 			<string>xcode.lang.ruby</string>
 		</dict>
+		<key>BAE231D991C166A7181FE070C98BF3DD</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>Events.h</string>
+			<key>path</key>
+			<string>SDK/ios/backendless/include/Events.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>BC3CA7F9E30CC8F7E2DD044DD34432FC</key>
 		<dict>
 			<key>children</key>
@@ -735,6 +1553,21 @@
 			<string>PBXGroup</string>
 			<key>name</key>
 			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BCB2F5E4CC2E70783D74701EA738BCF1</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>AtomicCounters.h</string>
+			<key>path</key>
+			<string>SDK/ios/backendless/include/AtomicCounters.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -778,6 +1611,36 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
+		<key>C1C4A4085D09290E2C6D0078A276C656</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>PersistenceService.h</string>
+			<key>path</key>
+			<string>SDK/ios/backendless/include/PersistenceService.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C478F03562CDA27E81AACD0EC4FC3163</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>Message.h</string>
+			<key>path</key>
+			<string>SDK/ios/backendless/include/Message.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>C65E4D2098B0E49A1B4ACF531F5D22A2</key>
 		<dict>
 			<key>buildActionMask</key>
@@ -790,6 +1653,81 @@
 			<string>PBXHeadersBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
+		</dict>
+		<key>C9A0125ED7E0A99A579DA7300768C260</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IAtomicCounters.h</string>
+			<key>path</key>
+			<string>SDK/ios/backendless/include/IAtomicCounters.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CAD957D4D4FE9459FAB0F10486DBFF1D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>GeoFence.h</string>
+			<key>path</key>
+			<string>SDK/ios/backendless/include/GeoFence.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CD196EBF825C4EB6376ACAD7D726527C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BackendlessCacheProtocol.h</string>
+			<key>path</key>
+			<string>SDK/ios/backendless/include/BackendlessCacheProtocol.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D19B42601EBE837A4EF4A3A779ADC0A2</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>MessageStatus.h</string>
+			<key>path</key>
+			<string>SDK/ios/backendless/include/MessageStatus.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D217DB8B2F9114A53425B22E14C19850</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BodyParts.h</string>
+			<key>path</key>
+			<string>SDK/ios/backendless/include/BodyParts.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>D41D8CD98F00B204E9800998ECF8427E</key>
 		<dict>
@@ -830,26 +1768,25 @@
 				<string>6182035574C1B928162AAE0A35E5ED8E</string>
 			</array>
 		</dict>
-		<key>D7471BC4478E4FB69B2CA98272BC3C22</key>
+		<key>D69C130EBEBC406D79626B6BEFB3DECD</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>F83F3BF638A6624836B53F24AAA7772E</string>
-				<string>3D5629C1E4543F0F4449A09C9E9E4018</string>
-			</array>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXGroup</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>CameraManager</string>
+			<string>BackendlessDataQuery.h</string>
 			<key>path</key>
-			<string>CameraManager</string>
+			<string>SDK/ios/backendless/include/BackendlessDataQuery.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>DD42352B5C03C87D2AF000F5FC8B36ED</key>
 		<dict>
 			<key>fileRef</key>
-			<string>169E12203DEE41EF4952D7CE69A9CF18</string>
+			<string>E85BFF1AB26E43F075DC9566C77003CD</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -876,7 +1813,7 @@
 		<key>DE6AA7AA30ECA841C462BD486022C743</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>3A8D96DBCCF3DDE6F20F3ED780F646BC</string>
+			<string>F9AAC45B43AEFB7512F4E54C697D7427</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
@@ -934,9 +1871,54 @@
 		<key>DE931211EF2B4A50DC6AF38F6D27E1EA</key>
 		<dict>
 			<key>fileRef</key>
-			<string>F83F3BF638A6624836B53F24AAA7772E</string>
+			<string>A0C62E6CD80983447E7E1DED9C2975E5</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+		</dict>
+		<key>DF8220C225C3CE520F14D4D72F91D2F2</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IPersistable.h</string>
+			<key>path</key>
+			<string>SDK/ios/CommLibiOS/include/IPersistable.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E071A4C9ABB82383CA91057C8D899ED9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>DataPermission.h</string>
+			<key>path</key>
+			<string>SDK/ios/backendless/include/DataPermission.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E15302704C5FDBB11B527C55CE64BA61</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BEFileInfo.h</string>
+			<key>path</key>
+			<string>SDK/ios/backendless/include/BEFileInfo.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>E6659397A29BA550E3DF84A0D1B65970</key>
 		<dict>
@@ -951,17 +1933,256 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>E6BC130F12AEBBEDC2F49AD6BA388558</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>CacheFactory.h</string>
+			<key>path</key>
+			<string>SDK/ios/backendless/include/CacheFactory.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E85BFF1AB26E43F075DC9566C77003CD</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>CameraManager-umbrella.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E86432A1C1EAEC0C4DEA14F9146E302F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>QueryOptions.h</string>
+			<key>path</key>
+			<string>SDK/ios/backendless/include/QueryOptions.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E901781E608C0C5AF33C774592BD7E59</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>UserService.h</string>
+			<key>path</key>
+			<string>SDK/ios/backendless/include/UserService.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E9519D6405A0CDD6B2A8BD6EF2DE88AC</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>Backendless.h</string>
+			<key>path</key>
+			<string>SDK/ios/backendless/include/Backendless.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EB808AE9BB18CC5BED74E088F5FD6CCF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>GeoCluster.h</string>
+			<key>path</key>
+			<string>SDK/ios/backendless/include/GeoCluster.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EB8ECB19DD667CDE14A82588F2291B78</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>AbstractProperty.h</string>
+			<key>path</key>
+			<string>SDK/ios/backendless/include/AbstractProperty.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EBAF649086E73FDCFA5B1F2378F8140B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BEMapView.h</string>
+			<key>path</key>
+			<string>SDK/ios/backendless/include/BEMapView.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>EDC504771867DAEBD8D80AD3EA2E6BFC</key>
 		<dict>
 			<key>fileRef</key>
-			<string>5E081A08D762E27A86C6E5F7BB353D93</string>
+			<string>F096189232AD0C0AC21856F44D2839BB</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+		</dict>
+		<key>EE1D397EF054E2BC621DA18C80307FA6</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>EB8ECB19DD667CDE14A82588F2291B78</string>
+				<string>7DD8C77317D62FD932BCEF5821E31FF8</string>
+				<string>8645004F18234D2E1B36C4A44A508BD2</string>
+				<string>BCB2F5E4CC2E70783D74701EA738BCF1</string>
+				<string>183574EA4458B2E292AD0CB058EABC8A</string>
+				<string>E9519D6405A0CDD6B2A8BD6EF2DE88AC</string>
+				<string>5AA39A2DDDEB3DD1D047440F8862B950</string>
+				<string>784F120FCE60917CAEB7FFD74B0FF0EF</string>
+				<string>50736E0AC284235B16E648E3BC8DC31E</string>
+				<string>235F0BD5BF8873B7B55FE422E48AC3A9</string>
+				<string>CD196EBF825C4EB6376ACAD7D726527C</string>
+				<string>19A3BB4C2DA9CAFC59808B3981828EBD</string>
+				<string>D69C130EBEBC406D79626B6BEFB3DECD</string>
+				<string>AE10E5D28373D7012FD3D8B11BAD3B55</string>
+				<string>94D12147C85EA91677BE91A17E7C4DC2</string>
+				<string>39FAB631ECB230BAFAA7DC5A3B3F5487</string>
+				<string>992886529FB69C500522F158D141D287</string>
+				<string>4350698E5B500468CB69E1C12596059B</string>
+				<string>A2A55EFBFDD1EB17495C3E9B094D8B17</string>
+				<string>386EA6E4500488FC19811901DDF5A01E</string>
+				<string>E15302704C5FDBB11B527C55CE64BA61</string>
+				<string>EBAF649086E73FDCFA5B1F2378F8140B</string>
+				<string>148BA4E9F9EA874CF28D72D28FE30505</string>
+				<string>02A15641B93FF5B34B958743F51B70A1</string>
+				<string>1F141F905903D4263E0DFAC836C0ABD2</string>
+				<string>643D8E6B252CB3961E763E820D22F62D</string>
+				<string>D217DB8B2F9114A53425B22E14C19850</string>
+				<string>E6BC130F12AEBBEDC2F49AD6BA388558</string>
+				<string>5BD8E1C946111860A24DECBEDD157C75</string>
+				<string>573564E5611D7E1E79B18CD8C6621623</string>
+				<string>E071A4C9ABB82383CA91057C8D899ED9</string>
+				<string>465EB125FF1450B0776BF21B30D6BF9B</string>
+				<string>F4F87EB6740B4C71A556A2BD07D8F31B</string>
+				<string>43FB2ED92B9AD7B2AED3E16B598B402A</string>
+				<string>298C2BA338672DEA9096CB3301903748</string>
+				<string>BAE231D991C166A7181FE070C98BF3DD</string>
+				<string>B7C900D8B2BC64B42ACBD5D633348AB8</string>
+				<string>27CC2E2EAD5E9477FA5BF499719AE508</string>
+				<string>5077019765D9DC37825B3CFF507F6FBB</string>
+				<string>25CCA49543228AC6B8AEB03817E9B1B0</string>
+				<string>71C73408A5BB2B5A4784DF9E3D87B068</string>
+				<string>EB808AE9BB18CC5BED74E088F5FD6CCF</string>
+				<string>CAD957D4D4FE9459FAB0F10486DBFF1D</string>
+				<string>3F4F64EA7E4A086F07CBAF72D671F172</string>
+				<string>AA460B5F9712B067C657E4C38C4DA572</string>
+				<string>33BE711177C7B6352E960A0F5930B28F</string>
+				<string>C9A0125ED7E0A99A579DA7300768C260</string>
+				<string>8BE13C7BDFCF3BAF1E62507FDDFBB79F</string>
+				<string>B3812DBA68F2814A87A558C0E5F41D6A</string>
+				<string>348F2991A4EE816BC4844A410B903EC5</string>
+				<string>A8F55E634895CBB6AA882D56A3804EE0</string>
+				<string>618746E9A2FB59B94C7E64F6733B70AA</string>
+				<string>74FCDEBEB27A69E7B5F5C202F091B408</string>
+				<string>A8DF1E37F0FF0E63DF6A2ED0665545EB</string>
+				<string>DF8220C225C3CE520F14D4D72F91D2F2</string>
+				<string>53590833B814D1A83D5ECE0F99491E3D</string>
+				<string>7C83F7166F2BB806A2828C27767B5F81</string>
+				<string>FA50D0D2DBE9B5BC0F6D95740F9392C0</string>
+				<string>9E847F72CDDB0C817C913C614BB47F1F</string>
+				<string>80CB7E2C6615ED3FDEC5DA83BF288309</string>
+				<string>356E4992523D1600C310D2D6DDDAFF27</string>
+				<string>724CA2B6A6316B1D490BE95CA96B8EF6</string>
+				<string>FF8CB907F521F49ED3F165E3F76EC7CC</string>
+				<string>C478F03562CDA27E81AACD0EC4FC3163</string>
+				<string>D19B42601EBE837A4EF4A3A779ADC0A2</string>
+				<string>FF5CA63C61A277C5FD463F4EE762FCBF</string>
+				<string>40717210AD461BC3E104632EA213C294</string>
+				<string>C1C4A4085D09290E2C6D0078A276C656</string>
+				<string>5A1E5FA3ED588264DAC80BDC758B39B3</string>
+				<string>529D48BF4BEE805FB3863A1C1CD34CD5</string>
+				<string>6C484180512E0D32DDC58DF21D62755A</string>
+				<string>E86432A1C1EAEC0C4DEA14F9146E302F</string>
+				<string>69553E4E0D04A9CA357955EC2E6A9EA7</string>
+				<string>55DFCD253F3C0D0EB27EBB0FA9AFC4F6</string>
+				<string>27CAE40A8572BF089E5CA079C5B9E1D3</string>
+				<string>A75112ACE890849F68E26E76DDD03864</string>
+				<string>4658D312C2A28E77F9B91AA633933627</string>
+				<string>E901781E608C0C5AF33C774592BD7E59</string>
+				<string>F983B8A629287D6544F90EEBF8C6744E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Backendless</string>
+			<key>path</key>
+			<string>Backendless</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F096189232AD0C0AC21856F44D2839BB</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>CameraManager-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F4F87EB6740B4C71A556A2BD07D8F31B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>DEBUG.h</string>
+			<key>path</key>
+			<string>SDK/ios/CommLibiOS/include/DEBUG.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>F5F8F4B3CA4351AD3E001A927DE19815</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>3A8D96DBCCF3DDE6F20F3ED780F646BC</string>
+			<string>F9AAC45B43AEFB7512F4E54C697D7427</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
@@ -1014,21 +2235,6 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>F83F3BF638A6624836B53F24AAA7772E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>CameraManager.swift</string>
-			<key>path</key>
-			<string>camera/CameraManager.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>F8BC9BCCCE3FE129CF8EAEB5DDC54E49</key>
 		<dict>
 			<key>buildActionMask</key>
@@ -1041,6 +2247,49 @@
 			<string>PBXFrameworksBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
+		</dict>
+		<key>F983B8A629287D6544F90EEBF8C6744E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>WeborbClient.h</string>
+			<key>path</key>
+			<string>SDK/ios/CommLibiOS/include/WeborbClient.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F9AAC45B43AEFB7512F4E54C697D7427</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>CameraManager.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FA50D0D2DBE9B5BC0F6D95740F9392C0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IServiceCall.h</string>
+			<key>path</key>
+			<string>SDK/ios/CommLibiOS/include/IServiceCall.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>FB45FFD90572718D82AB9092B750F0CA</key>
 		<dict>
@@ -1109,6 +2358,36 @@
 			<string>XCBuildConfiguration</string>
 			<key>name</key>
 			<string>Release</string>
+		</dict>
+		<key>FF5CA63C61A277C5FD463F4EE762FCBF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>MessagingService.h</string>
+			<key>path</key>
+			<string>SDK/ios/backendless/include/MessagingService.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FF8CB907F521F49ED3F165E3F76EC7CC</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>MemoryTicker.h</string>
+			<key>path</key>
+			<string>SDK/ios/CommLibiOS/include/MemoryTicker.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 	</dict>
 	<key>rootObject</key>

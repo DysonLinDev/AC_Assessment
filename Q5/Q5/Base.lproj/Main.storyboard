@@ -57,7 +57,7 @@
         <!--Show Photo View Controller-->
         <scene sceneID="Sl3-zJ-B1x">
             <objects>
-                <viewController id="KuX-Kl-wLj" customClass="ShowPhotoViewController" customModule="Q5" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ShowPhotoViewController" id="KuX-Kl-wLj" customClass="ShowPhotoViewController" customModule="Q5" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Q6g-jc-f9A"/>
                         <viewControllerLayoutGuide type="bottom" id="KoA-nc-TWB"/>
@@ -107,7 +107,7 @@
         <!--Camera View Controller-->
         <scene sceneID="gm9-O5-rhE">
             <objects>
-                <viewController id="I1I-Am-575" customClass="CameraViewController" customModule="Q5" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CameraViewController" id="I1I-Am-575" customClass="CameraViewController" customModule="Q5" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="NHX-EG-cnW"/>
                         <viewControllerLayoutGuide type="bottom" id="I2N-tH-slH"/>
@@ -138,6 +138,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WH5-bf-s1Z">
                                 <rect key="frame" x="277" y="550" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="takephotoAction:" destination="I1I-Am-575" eventType="touchUpInside" id="Qby-bT-v8C"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -162,7 +165,6 @@
                     <connections>
                         <outlet property="photoDescribeText" destination="kfB-3k-Px0" id="Pil-QS-CdM"/>
                         <outlet property="previewImageView" destination="RQj-4d-DLN" id="2sL-FX-mID"/>
-                        <outlet property="takePhotoAction" destination="WH5-bf-s1Z" id="Wp9-PC-SHD"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bGk-6Y-SPu" userLabel="First Responder" sceneMemberID="firstResponder"/>
