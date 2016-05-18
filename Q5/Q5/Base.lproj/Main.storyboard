@@ -131,7 +131,7 @@
                                 </constraints>
                             </imageView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kfB-3k-Px0">
-                                <rect key="frame" x="150" y="490" width="300" height="30"/>
+                                <rect key="frame" x="150" y="370" width="300" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
@@ -151,6 +151,7 @@
                             <constraint firstItem="ehg-r4-qRJ" firstAttribute="leading" secondItem="AKj-RQ-1vH" secondAttribute="leading" constant="20" id="G6f-oD-nxz"/>
                             <constraint firstItem="RQj-4d-DLN" firstAttribute="top" secondItem="ehg-r4-qRJ" secondAttribute="bottom" constant="135" id="NgX-Ww-xVK"/>
                             <constraint firstItem="kfB-3k-Px0" firstAttribute="centerX" secondItem="AKj-RQ-1vH" secondAttribute="centerX" id="bya-rR-exf"/>
+                            <constraint firstItem="kfB-3k-Px0" firstAttribute="top" secondItem="RQj-4d-DLN" secondAttribute="bottom" constant="20" id="cCf-Jy-6Bi"/>
                             <constraint firstItem="RQj-4d-DLN" firstAttribute="centerY" secondItem="AKj-RQ-1vH" secondAttribute="centerY" id="gAC-Vt-rLa"/>
                             <constraint firstItem="WH5-bf-s1Z" firstAttribute="top" secondItem="kfB-3k-Px0" secondAttribute="bottom" constant="30" id="pR8-gt-vT2"/>
                             <constraint firstItem="WH5-bf-s1Z" firstAttribute="centerX" secondItem="AKj-RQ-1vH" secondAttribute="centerX" id="yCB-ai-58j"/>
@@ -159,6 +160,7 @@
                         <variation key="default">
                             <mask key="constraints">
                                 <exclude reference="NgX-Ww-xVK"/>
+                                <exclude reference="pR8-gt-vT2"/>
                             </mask>
                         </variation>
                     </view>

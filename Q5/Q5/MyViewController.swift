@@ -14,9 +14,28 @@ class MyViewController: UIViewController, UITableViewDelegate , UITableViewDataS
     
     override func viewDidLoad() {
         super.viewDidLoad()
-//        self.myTableView.delegate = self
-//        self.myTableView.dataSource = self
+        self.myTableView.delegate = self
+        self.myTableView.dataSource = self
         // Do any additional setup after loading the view.
+        let backendless = Backendless.sharedInstance()
+        let user: BackendlessUser = BackendlessUser()
+        user.email = "linshihting1029@gmail.com"
+        user.password = "apple21029"
+//        if !backendless.userService.isStayLoggedIn {
+//            backendless.userService.registering(user)
+//        }
+        
+        
+        let cellNib = UINib(nibName: "MyTableViewCell", bundle: nil)
+        self.myTableView.registerNib(cellNib, forCellReuseIdentifier: "MyTableViewCell")
+        
+        let allData = backendless.data.of(Photos.ofClass()).find().getCurrentPage()
+        for data in allData {
+            //print(data)
+            //let photoData = Photos()
+            //photoData.Id = data.
+            PhotosArray.shareInstance.data.append(data as! Photos)
+        }
     }
 
     override func didReceiveMemoryWarning() {
@@ -29,6 +48,9 @@ class MyViewController: UIViewController, UITableViewDelegate , UITableViewDataS
         self.presentViewController(destinationController, animated: true, completion: nil)
     }
 
+    override func viewWillAppear(animated: Bool) {
+        self.myTableView.reloadData()
+    }
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         return 1
@@ -36,12 +58,22 @@ class MyViewController: UIViewController, UITableViewDelegate , UITableViewDataS
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("MyTableViewCell") as! MyTableViewCell
+        if let des = PhotosArray.shareInstance.data[indexPath.row].describe {
+            cell.contentLabel.text = des
+        }
+        
+        if let backendData = PhotosArray.shareInstance.data[indexPath.row].photoData {
+            let data = NSData(base64EncodedString: backendData , options:  NSDataBase64DecodingOptions())
+            if data != nil  && data != "" {
+                cell.photoImageView.image = UIImage(data: data!)
+            }
+        }
         
         return cell
     }
 
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 5
+        return PhotosArray.shareInstance.data.count
     }
     
     /*

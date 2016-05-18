@@ -24,6 +24,7 @@ class ShowPhotoViewController: UIViewController {
     }
     
     @IBAction func backAction(sender: AnyObject) {
+        self.dismissViewControllerAnimated(true, completion: nil)
     }
 
     /*
