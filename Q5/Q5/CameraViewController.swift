@@ -60,13 +60,13 @@ class CameraViewController: UIViewController {
                 let photo = Photos()
                 photo.Id = id
                 photo.describe = describe
-                photo.photoData = UIImageJPEGRepresentation(imageToSave, 1.0)?.base64EncodedStringWithOptions(NSDataBase64EncodingOptions())
+                //photo.photoData = UIImageJPEGRepresentation(imageToSave, 1.0)?.base64EncodedStringWithOptions(NSDataBase64EncodingOptions())
                 
                 let photoSave = Photos()
                 photoSave.Id = id
                 photoSave.describe = describe
                 photoSave.photoData = UIImageJPEGRepresentation(imageToSave, 1.0)?.base64EncodedStringWithOptions(NSDataBase64EncodingOptions())
-                print(photoSave.photoData)
+                //print(photoSave.photoData)
                 PhotosArray.shareInstance.data.append(photoSave)
                 
                 Api.save(photo)
