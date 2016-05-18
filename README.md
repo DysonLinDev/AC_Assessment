@@ -29,3 +29,15 @@ Q3: viewController Life Cycle:
     再次從背景中喚醒：依序觸發
             applicationWillEnterForeground
             applicationDidBecomeActive
+
+Q4: 1. 建立MyTableViewCell 並客製化xib
+    2. 在tableView中動態的reusecell
+    3. 在點擊cell時 觸發alertController alertAction
+    
+    
+Q5: 1.使用第三方 CameraManager / Backendless
+    2.第一頁呈現資料，資料來源為backendless
+    3.拍照頁面利用Cameramanager開啟相機，並先進行預覽，按下拍照按鈕後，進行照片與輸入文字的寫入，並進行上傳
+    4.回到第一頁時，tableView reload data 
+    5.點選cell時，開啟第三個頁面，利用scrollView來呈現出zoom in/zoom out 的效果 //not finished
+    6.進行臉書分享 //not finished
